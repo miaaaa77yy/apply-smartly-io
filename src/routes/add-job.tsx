@@ -1,7 +1,8 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { AppShell } from "@/components/AppShell";
 import { useJobs } from "@/lib/jobs-store";
+import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/add-job")({
   head: () => ({
@@ -27,8 +28,8 @@ const labelClass = "font-mono text-[10px] uppercase tracking-[0.15em] text-muted
 
 function AddJob() {
   const { addJob } = useJobs();
-  const navigate = useNavigate();
   const [form, setForm] = useState({ company: "", title: "", location: "", description: "" });
+  const [submitted, setSubmitted] = useState(false);
 
   const update = (key: keyof typeof form) => (e: { target: { value: string } }) =>
     setForm((prev) => ({ ...prev, [key]: e.target.value }));
@@ -49,7 +50,7 @@ function AddJob() {
         onSubmit={(e) => {
           e.preventDefault();
           addJob(form);
-          navigate({ to: "/" });
+          setSubmitted(true);
         }}
         className="rounded-2xl border border-border bg-surface/70 p-5 ring-1 ring-foreground/5 backdrop-blur-xl"
       >
@@ -99,13 +100,12 @@ function AddJob() {
         </label>
 
         <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-border/70 pt-4">
-          <button
-            type="submit"
-            className="rounded-lg bg-foreground px-3.5 py-2 text-[13px] font-semibold text-surface transition-transform hover:-translate-y-0.5"
-          >
+          <Button type="submit" size="sm">
             Add to list
-          </button>
-          <span className="font-mono text-[12px] text-muted">Added as unscored</span>
+          </Button>
+          <span className={`font-mono text-[12px] ${submitted ? "text-verdict-apply" : "text-muted"}`}>
+            {submitted ? "Saved · Scoring coming soon" : "Scoring coming soon"}
+          </span>
         </div>
       </form>
     </AppShell>

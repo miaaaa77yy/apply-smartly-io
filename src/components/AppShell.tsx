@@ -8,7 +8,7 @@ const NAV = [
   { to: "/tracker", label: "Tracker" },
 ] as const;
 
-export function AppShell({ children }: { children: ReactNode }) {
+export function AppShell({ children, wide = false }: { children: ReactNode; wide?: boolean }) {
   return (
     <div className="relative min-h-screen overflow-hidden bg-background font-display text-foreground">
       <div className="pointer-events-none fixed inset-0 -z-10">
@@ -44,7 +44,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-5 pb-20">{children}</main>
+      <main className={`mx-auto px-5 pb-20 ${wide ? "max-w-[1500px]" : "max-w-5xl"}`}>{children}</main>
     </div>
   );
 }
