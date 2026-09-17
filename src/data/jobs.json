@@ -1,0 +1,3187 @@
+{
+ "meta": {
+  "title": "Job search",
+  "run_date": "2026-09-01",
+  "sample_data": true,
+  "apply_now_threshold": 7.0,
+  "status_options": [
+   "not_applied",
+   "planning",
+   "applied",
+   "interview",
+   "rejected",
+   "offer",
+   "withdrawn"
+  ],
+  "handled_statuses": [
+   "applied",
+   "interview",
+   "offer",
+   "rejected",
+   "withdrawn"
+  ],
+  "groups": {
+   "apply_now": "Apply now",
+   "also_worth": "Also worth applying",
+   "backup": "Backup",
+   "needs_review": "Needs review",
+   "passed": "Passed"
+  },
+  "networking_note": "Networking links are generated in code from company name: LinkedIn people search for \"<company> USC Marshall\", \"<company> University of Waterloo\", and \"<company>\".",
+  "scores_note": "Scores are 0-10. null means not scored (hard gate fired, verdict Blocked)."
+ },
+ "jobs": [
+  {
+   "id": "demo:google-bi-analyst",
+   "title": "Business Intelligence Analyst, Global Business Organization",
+   "company": "Google",
+   "location": "Mountain View, California, United States",
+   "list_location": "Mountain View, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 9.0,
+    "match": 9.0,
+    "opportunity": 9.0
+   },
+   "salary": "$122K-$168K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": true,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/google/google-bi-analyst",
+   "why_fits": "Required Looker and SQL reporting matches ten-plus dashboards built across two banking internships; the posting asks for 1-3 years and names recurring stakeholder reporting as the core of the role.",
+   "main_risk": "No Looker specifically — the equivalent work was done in Power BI and Tableau.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "This role is based in Mountain View, CA (hybrid, three days on site)."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time, regular employment."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Economics, Statistics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-3 years of experience in analytics, business intelligence or a related field"
+    },
+    {
+     "label": "Match · 9",
+     "quote": "Every required responsibility maps onto reporting work already on the record, and the experience band is met rather than stretched."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "Large, established analytics org with a published internal mobility path and unusually broad stakeholder exposure for an entry band."
+    },
+    {
+     "label": "Personal priority · 9.0",
+     "quote": "+2.0 tier-1 metro (Mountain View) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand · +0.3 tech — clamped to 10 and reported as 9.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:microsoft-ba-cloud-ai",
+   "title": "Business Analyst, Cloud + AI",
+   "company": "Microsoft",
+   "location": "Redmond, Washington, United States",
+   "list_location": "Redmond, WA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 9.0,
+    "match": 8.0,
+    "opportunity": 9.0
+   },
+   "salary": "$105K-$152K/yr",
+   "tags": [
+    "sponsors"
+   ],
+   "is_new": false,
+   "starred": true,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/microsoft/microsoft-ba-cloud-ai",
+   "why_fits": "Recurring revenue and consumption reporting is the same shape as the monthly reporting pack built at RBC; Power BI is named as the primary tool and is the strongest single item on the resume.",
+   "main_risk": "No Azure or cloud-consumption vocabulary — the domain would be learned from zero.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Sponsorship available",
+     "quote": "Microsoft will consider candidates requiring current or future visa sponsorship for this position."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Redmond, WA — up to 50% work from home."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time position."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business Analytics, Finance, Economics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "0-2 years of professional experience; internship experience considered"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Power BI and SQL are required rather than preferred and both are directly evidenced; the domain is the only genuine unknown."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "One of the largest analytics organizations in the industry, and the posting states sponsorship outright rather than leaving it unsaid."
+    },
+    {
+     "label": "Personal priority · 9.0",
+     "quote": "+2.0 tier-1 metro (Redmond) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 9.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:stripe-product-analyst",
+   "title": "Product Analyst, Payments",
+   "company": "Stripe",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Product Analytics",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 9.0,
+    "match": 8.0,
+    "opportunity": 9.0
+   },
+   "salary": "$130K-$175K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": true,
+   "status": "planning",
+   "apply_url": "https://jobs.example.com/stripe/stripe-product-analyst",
+   "why_fits": "Funnel and conversion analysis on a transactional product is close to the payment-volume reporting built at BMO; SQL is the only hard requirement and the posting explicitly welcomes early-career analysts.",
+   "main_risk": "No experiment design or A/B testing on file, and the posting treats it as core.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Applicants must be authorized to work in the US without sponsorship now or in the future."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco or New York — hybrid, two days in office."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Degree in a quantitative or business discipline, or equivalent experience."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1+ years in an analytical role, or equivalent internship experience"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Transactional analytics overlap is direct; the missing piece is experimentation, which the posting places at the centre of the role."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "Widely regarded analytics culture, unusually strong exit options, and a product with real measurement depth."
+    },
+    {
+     "label": "Personal priority · 9.0",
+     "quote": "+2.0 tier-1 metro (San Francisco) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +0.3 tech — reported as 9.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:adobe-product-ops",
+   "title": "Product Operations Analyst, Creative Cloud",
+   "company": "Adobe",
+   "location": "San Jose, California, United States",
+   "list_location": "San Jose, CA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.0,
+    "match": 8.0,
+    "opportunity": 8.0
+   },
+   "salary": "$108K-$140K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "interview",
+   "apply_url": "https://jobs.example.com/adobe/adobe-product-ops",
+   "why_fits": "Release-readiness and adoption reporting is reporting-cadence work with a product audience; the required stack is SQL, Excel and Power BI, all evidenced.",
+   "main_risk": "No prior product-operations title, so the framing would be new even though the underlying work is not.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Adobe requires all employees to be authorized to work in the US."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Jose, CA — hybrid, three days on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Regular full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Engineering, Economics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in product operations, business analysis or a related field"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Skills line up cleanly; the coordination scope is the stretch."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Mature product organization with a long-running analytics practice."
+    },
+    {
+     "label": "Personal priority · 8.0",
+     "quote": "+2.0 tier-1 metro (San Jose) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 8.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:airbnb-analytics-associate",
+   "title": "Analytics Associate, Community Support",
+   "company": "Airbnb",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.5,
+    "match": 8.0,
+    "opportunity": 8.0
+   },
+   "salary": "$112K-$148K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "applied",
+   "apply_url": "https://jobs.example.com/airbnb/airbnb-analytics-associate",
+   "why_fits": "Operational reporting on ticket volume, handle time and CSAT is the same reporting-cadence work delivered at RBC, and the required stack is SQL plus a BI tool with nothing beyond it.",
+   "main_risk": "No customer-support domain exposure; the metric vocabulary is unfamiliar.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA — Live and Work Anywhere is not available for this role."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time, permanent."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree or equivalent practical experience."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-2 years of analytics experience"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Requirements are met on every line; only the domain is new."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Strong brand, well-instrumented data platform, and a team that publishes its own metric definitions."
+    },
+    {
+     "label": "Personal priority · 8.5",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 8.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:amazon-ba-fulfillment",
+   "title": "Business Analyst, Fulfillment Technologies",
+   "company": "Amazon",
+   "location": "Seattle, Washington, United States",
+   "list_location": "Seattle, WA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 7.5,
+    "match": 8.0,
+    "opportunity": 8.0
+   },
+   "salary": "$103K-$138K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "applied",
+   "apply_url": "https://jobs.example.com/amazon/amazon-ba-fulfillment",
+   "why_fits": "Weekly operational reporting against a defined metric tree is exactly the RBC reporting cadence, and the posting asks for SQL plus Excel with a BI tool preferred.",
+   "main_risk": "No large-scale operations exposure; the data volumes are an order of magnitude larger.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US; this role is not eligible for immigration sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Seattle, WA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Economics, Statistics, Engineering or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1+ years of experience with data analysis, SQL required"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Requirements are met on every line, with prior evidence for each."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Well-known analyst development path and a very large internal market."
+    },
+    {
+     "label": "Personal priority · 7.5",
+     "quote": "+2.0 tier-1 metro (Seattle) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:notion-bizops",
+   "title": "Business Operations Analyst",
+   "company": "Notion",
+   "location": "New York, New York, United States",
+   "list_location": "New York, NY",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.5,
+    "match": 8.0,
+    "opportunity": 8.0
+   },
+   "salary": "$115K-$150K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/notion/notion-bizops",
+   "why_fits": "Self-serve funnel and retention reporting maps onto the subscription reporting built at BMO, and the posting names SQL, spreadsheets and a BI tool as the whole of the required stack.",
+   "main_risk": "No SaaS or product-led-growth vocabulary on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "New York, NY — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-3 years in business operations, analytics or consulting"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Required skills are all evidenced; the domain is the learning curve."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Broad remit for an entry band, with direct exposure to the operating leadership team."
+    },
+    {
+     "label": "Personal priority · 8.5",
+     "quote": "+2.0 tier-1 metro (New York) · +1.5 core role family · +0.5 confirmed 500-5,000 headcount · +0.3 tech — reported as 8.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:figma-growth-analyst",
+   "title": "Growth Analyst",
+   "company": "Figma",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Product Analytics",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.0,
+    "match": 7.0,
+    "opportunity": 9.0
+   },
+   "salary": "$125K-$165K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "planning",
+   "apply_url": "https://jobs.example.com/figma/figma-growth-analyst",
+   "why_fits": "Activation and conversion reporting on a self-serve product overlaps the customer-funnel reporting built at BMO; SQL is required and evidenced.",
+   "main_risk": "Experimentation and causal inference are listed as required, not preferred.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Authorization to work in the US is required."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No degree field specified."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in growth, product or marketing analytics"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Half the requirement list is directly evidenced and half is not; the unmet half is the part the role is built around."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "One of the strongest growth-analytics teams at this company size, with visible work and a short path to product influence."
+    },
+    {
+     "label": "Personal priority · 8.0",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · +0.5 confirmed 500-5,000 headcount · +0.3 tech — reported as 8.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:meta-data-analyst-monetization",
+   "title": "Data Analyst, Monetization",
+   "company": "Meta",
+   "location": "New York, New York, United States",
+   "list_location": "New York, NY",
+   "role_family": "Product Analytics",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 7.5,
+    "match": 7.0,
+    "opportunity": 9.0
+   },
+   "salary": "$135K-$180K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/meta/meta-data-analyst-monetization",
+   "why_fits": "Revenue-per-user and pricing reporting is quantitative commercial analysis, which the FP&A rotation produced monthly; SQL is the only required tool.",
+   "main_risk": "No Python and no statistical modelling on the record; both are listed as preferred.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must have current US work authorization."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "New York, NY — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in a quantitative field or equivalent practical experience."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience; SQL required, Python preferred"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "The required list is met; the preferred list is where the competition will be decided."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "High-scope analytics with direct revenue impact and a strong compensation band."
+    },
+    {
+     "label": "Personal priority · 7.5",
+     "quote": "+2.0 tier-1 metro (New York) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:nvidia-ops-analyst",
+   "title": "Operations Analyst, Data Center",
+   "company": "NVIDIA",
+   "location": "Santa Clara, California, United States",
+   "list_location": "Santa Clara, CA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.0,
+    "match": 7.0,
+    "opportunity": 9.0
+   },
+   "salary": "$118K-$160K/yr",
+   "tags": [
+    "sponsors"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/nvidia/nvidia-ops-analyst",
+   "why_fits": "Supply and capacity reporting is operational reporting with a manufacturing vocabulary; the required stack is Excel, SQL and Power BI, all on the record.",
+   "main_risk": "No hardware supply-chain context, and the metric set would be learned from zero.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Sponsorship available",
+     "quote": "NVIDIA sponsors work visas for qualified candidates in this role."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Santa Clara, CA — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Supply Chain, Engineering or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-3 years of operations or business analysis experience"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Tooling and reporting rhythm transfer directly; the domain does not."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "The business is at the centre of the current infrastructure cycle, and the posting states sponsorship support explicitly."
+    },
+    {
+     "label": "Personal priority · 8.0",
+     "quote": "+2.0 tier-1 metro (Santa Clara) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 8.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:salesforce-bi-analyst",
+   "title": "Business Intelligence Analyst, Revenue Cloud",
+   "company": "Salesforce",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.0,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$110K-$145K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/salesforce/salesforce-bi-analyst",
+   "why_fits": "Pipeline and bookings reporting is the closest commercial analogue to the FP&A reporting pack on the record, and Tableau is named rather than preferred.",
+   "main_risk": "No CRM data-model experience; Salesforce object structure would be new.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States without sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in a business or quantitative field, or equivalent experience."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-3 years of business intelligence or reporting experience"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Tooling and reporting cadence match; the data model is the gap."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Large analytics function with a well-defined early-career track."
+    },
+    {
+     "label": "Personal priority · 8.0",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 8.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:apple-ba-retail-engineering",
+   "title": "Business Analyst, Retail Engineering",
+   "company": "Apple",
+   "location": "Cupertino, California, United States",
+   "list_location": "Cupertino, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 7.0,
+    "match": 8.0,
+    "opportunity": 9.0
+   },
+   "salary": "$120K-$158K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/apple/apple-ba-retail-engineering",
+   "why_fits": "Store-level performance reporting against a fixed metric definition set is the closest analogue on the list to the branch reporting built at RBC.",
+   "main_risk": "No retail operations context, and the posting expects familiarity with store economics.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Apple does not sponsor employment visas for this position."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Cupertino, CA — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Economics, Statistics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2-4 years of analytics or business analysis experience"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Reporting requirements are met directly and the tooling is identical."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "Strong brand, long tenure norms and a well-defined analyst ladder."
+    },
+    {
+     "label": "Personal priority · 7.0",
+     "quote": "+2.0 tier-1 metro (Cupertino) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:openai-strategy-ops",
+   "title": "Strategy & Operations Analyst",
+   "company": "OpenAI",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Strategy & Planning",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 8.5,
+    "match": 8.0,
+    "opportunity": 10.0
+   },
+   "salary": "$150K-$210K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/openai/openai-strategy-ops",
+   "why_fits": "The brief is quantitative business analysis with executive reporting attached, which is what the RBC FP&A rotation produced weekly; the posting asks for structured problem solving rather than a named tool stack.",
+   "main_risk": "No experience operating at the pace or ambiguity level this posting describes.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "You must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco — in office three days per week."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No specific degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in consulting, banking, or an analytical operating role"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Analytical requirements are met; the stretch is operating context, not capability."
+    },
+    {
+     "label": "Opportunity · 10",
+     "quote": "Highest opportunity score on the list — brand, scope and learning rate are all at the top of the range."
+    },
+    {
+     "label": "Personal priority · 8.5",
+     "quote": "+2.0 tier-1 metro · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand · +0.3 tech — reported as 8.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:uber-strategy-ops-mobility",
+   "title": "Strategy & Operations Analyst, Mobility",
+   "company": "Uber",
+   "location": "New York, New York, United States",
+   "list_location": "New York, NY",
+   "role_family": "Strategy & Planning",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "apply_now",
+   "verdict": "Apply",
+   "scores": {
+    "priority": 7.5,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$115K-$155K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "offer",
+   "apply_url": "https://jobs.example.com/uber/uber-strategy-ops-mobility",
+   "why_fits": "City-level supply and demand analysis with a weekly business review attached is the same operating rhythm as the RBC reporting pack, in a different domain.",
+   "main_risk": "No marketplace or two-sided-economics framing on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "New York, NY."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in strategy, operations, consulting or analytics"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Analytical requirements are met; the domain framing is the stretch."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "A genuinely operating role with visible P&L exposure early."
+    },
+    {
+     "label": "Personal priority · 7.5",
+     "quote": "+2.0 tier-1 metro · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:meta-bizops-reality-labs",
+   "title": "Business Operations Analyst, Reality Labs",
+   "company": "Meta",
+   "location": "Burlingame, California, United States",
+   "list_location": "Burlingame, CA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.5,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$118K-$155K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/meta/meta-bizops-reality-labs",
+   "why_fits": "Program spend tracking and headcount planning support is budget-cycle work of the kind produced at RBC, with the same Excel and Power BI stack.",
+   "main_risk": "No hardware program context, and the planning cycle is longer than anything on file.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must have current US work authorization."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Burlingame, CA — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required; field unspecified."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in business operations or program finance"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "The requirement list is met; organizational volatility is the real variable."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Large budget, small team, and unusually direct exposure to planning decisions."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "0.0 unknown location (Burlingame is unlisted and therefore neutral) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:netflix-growth-analyst-ads",
+   "title": "Growth Analyst, Advertising",
+   "company": "Netflix",
+   "location": "Los Angeles, California, United States",
+   "list_location": "Los Angeles, CA",
+   "role_family": "Product Analytics",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.5,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$125K-$165K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "planning",
+   "apply_url": "https://jobs.example.com/netflix/netflix-growth-analyst-ads",
+   "why_fits": "Subscriber and ad-tier conversion reporting is funnel analysis on a subscription product, which the BMO retention reporting already covers in outline.",
+   "main_risk": "No ad-tech vocabulary — impressions, fill rate and yield would all be new.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Los Angeles, CA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in growth or marketing analytics"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Analytical shape matches; the domain is entirely new."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "An ad business being built from scratch inside an established company — rare scope for an early-career analyst."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "+0.5 tier-2 metro (Los Angeles) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:adobe-revenue-ops",
+   "title": "Revenue Operations Analyst",
+   "company": "Adobe",
+   "location": "San Jose, California, United States",
+   "list_location": "San Jose, CA",
+   "role_family": "Revenue & Pricing",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.5,
+    "match": 7.0,
+    "opportunity": 7.0
+   },
+   "salary": "$105K-$138K/yr",
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/adobe/adobe-revenue-ops",
+   "why_fits": "Renewal and churn reporting against a subscription base is the same monthly cadence as the BMO retention pack, with the same tooling.",
+   "main_risk": "No quota, territory or commission modelling on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Jose, CA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business, Finance or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in revenue operations, sales analytics or finance"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Reporting requirements are met; the commercial mechanics are unfamiliar."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Stable function inside a large software business, with a clear internal path."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "+2.0 tier-1 metro (San Jose) · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:microsoft-program-delivery",
+   "title": "Program Delivery Analyst, Modern Work",
+   "company": "Microsoft",
+   "location": "Atlanta, Georgia, United States",
+   "list_location": "Atlanta, GA",
+   "role_family": "Program Delivery",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.0,
+    "match": 7.0,
+    "opportunity": 7.0
+   },
+   "salary": "$98K-$128K/yr",
+   "tags": [
+    "new",
+    "sponsors"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/microsoft/microsoft-program-delivery",
+   "why_fits": "Deployment tracking and adoption reporting across customer programs is reporting work with a delivery cadence, and the required stack is Excel plus Power BI.",
+   "main_risk": "No customer-facing delivery experience; the role is partly external.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Sponsorship available",
+     "quote": "Microsoft will consider candidates requiring visa sponsorship for this role."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Atlanta, GA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required; field unspecified."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in program management, delivery or business analysis"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Reporting requirements are met; the customer-facing half is untested."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Reliable, well-supported function with predictable progression."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+0.5 tier-2 metro (Atlanta) · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:salesforce-client-solutions",
+   "title": "Client Solutions Analyst",
+   "company": "Salesforce",
+   "location": "Chicago, Illinois, United States",
+   "list_location": "Chicago, IL",
+   "role_family": "Client Solutions",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.0,
+    "match": 7.0,
+    "opportunity": 7.0
+   },
+   "salary": "$95K-$125K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/salesforce/salesforce-client-solutions",
+   "why_fits": "Account health reporting and renewal risk analysis is recurring reporting with a commercial audience, close in shape to the BMO portfolio reporting.",
+   "main_risk": "No account-management exposure and no direct client contact on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States without sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Chicago, IL — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Business or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "1-3 years in an analytical or client-facing role"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Analytical half fits well; the client-facing half is unevidenced."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Broad commercial exposure and a wide internal market afterwards."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+0.5 tier-2 metro (Chicago) · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:netflix-financial-analyst-content",
+   "title": "Financial Analyst, Content Strategy",
+   "company": "Netflix",
+   "location": "Los Gatos, California, United States",
+   "list_location": "Los Gatos, CA",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.5,
+    "match": 8.0,
+    "opportunity": 9.0
+   },
+   "salary": "$120K-$170K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/netflix/netflix-financial-analyst-content",
+   "why_fits": "Title-level P&L modelling and variance commentary is the single closest match on the whole list to the RBC FP&A rotation and the accounting coursework behind it.",
+   "main_risk": "No entertainment or content-economics exposure.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Los Gatos, CA — on site four days per week."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance, Accounting, Economics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in FP&A, investment banking or corporate finance"
+    },
+    {
+     "label": "Match · 8",
+     "quote": "Strongest resume fit on the list; the reservation is direction, not capability."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "Unusually analytical finance function with real decision influence."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "+0.5 tier-2 metro (Los Gatos) · 0.0 acceptable role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:amazon-financial-analyst-aws",
+   "title": "Financial Analyst, AWS Infrastructure",
+   "company": "Amazon",
+   "location": "Seattle, Washington, United States",
+   "list_location": "Seattle, WA",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.0,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$105K-$140K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "rejected",
+   "apply_url": "https://jobs.example.com/amazon/amazon-financial-analyst-aws",
+   "why_fits": "Capital planning and variance analysis against a large cost base is the same monthly close cycle worked through at RBC.",
+   "main_risk": "No capital-expenditure modelling; the prior work was operating expense only.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "This position is not eligible for immigration sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Seattle, WA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance, Accounting or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in finance or accounting"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Cycle and tooling both transfer; the cost category is new."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Enormous scale and a finance function known for developing analysts quickly."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+2.0 tier-1 metro (Seattle) · 0.0 acceptable role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:google-financial-analyst-cloud",
+   "title": "Financial Analyst, Cloud",
+   "company": "Google",
+   "location": "Austin, Texas, United States",
+   "list_location": "Austin, TX",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 6.0,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$108K-$142K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "interview",
+   "apply_url": "https://jobs.example.com/google/google-financial-analyst-cloud",
+   "why_fits": "Bookings and consumption forecasting against a rolling plan is FP&A work of the same shape as the RBC rotation, one layer up in complexity.",
+   "main_risk": "No forecasting ownership — the prior work supported a forecast rather than held one.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Austin, TX — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance, Accounting, Economics or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in financial planning and analysis"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Domain and tooling both fit; the ownership step is real but reasonable."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Large finance organization with structured development and internal mobility."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+0.5 tier-2 metro (Austin) · 0.0 acceptable role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:uber-financial-analyst-delivery",
+   "title": "Financial Analyst, Delivery",
+   "company": "Uber",
+   "location": "Chicago, Illinois, United States",
+   "list_location": "Chicago, IL",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "also_worth",
+   "verdict": "Also worth",
+   "scores": {
+    "priority": 5.5,
+    "match": 7.0,
+    "opportunity": 7.0
+   },
+   "salary": "$98K-$128K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "withdrawn",
+   "apply_url": "https://jobs.example.com/uber/uber-financial-analyst-delivery",
+   "why_fits": "Contribution-margin analysis by city is unit-economics work built on the same spreadsheet discipline as the RBC rotation.",
+   "main_risk": "No unit-economics framing on the record, and no marketplace context.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Chicago, IL — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance, Economics or Accounting."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in FP&A or corporate finance"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Mechanically a good fit; narrower in scope than the shortlist above it."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Solid finance exposure, though a smaller remit than the other finance roles here."
+    },
+    {
+     "label": "Personal priority · 5.5",
+     "quote": "+0.5 tier-2 metro (Chicago) · 0.0 acceptable role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 5.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:apple-ops-analyst-supply-chain",
+   "title": "Operations Analyst, Supply Chain",
+   "company": "Apple",
+   "location": "Austin, Texas, United States",
+   "list_location": "Austin, TX",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 6.0,
+    "match": 6.0,
+    "opportunity": 8.0
+   },
+   "salary": "$100K-$132K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "applied",
+   "apply_url": "https://jobs.example.com/apple/apple-ops-analyst-supply-chain",
+   "why_fits": "Inventory and supplier reporting is operational reporting; the tooling matches, and the posting asks for two years rather than five.",
+   "main_risk": "Supply-chain planning is a discipline of its own and none of it is on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Apple does not sponsor employment visas for this position."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Austin, TX — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Supply Chain, Business, Industrial Engineering or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in supply chain, operations or analytics"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Half the brief is reporting and transfers; the planning half does not."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Strong brand and a well-run function, but a narrow specialism to enter through."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+0.5 tier-2 metro (Austin) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: the responsibilities describe a level above the experience on file, so the verdict is capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:airbnb-ba-trust",
+   "title": "Business Analyst, Trust & Safety",
+   "company": "Airbnb",
+   "location": "Seattle, Washington, United States",
+   "list_location": "Seattle, WA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 5.5,
+    "match": 6.0,
+    "opportunity": 7.0
+   },
+   "salary": "$102K-$134K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "applied",
+   "apply_url": "https://jobs.example.com/airbnb/airbnb-ba-trust",
+   "why_fits": "Case-volume and resolution reporting is operational reporting with an unfamiliar subject; the stack is SQL and Tableau.",
+   "main_risk": "No policy or risk-investigation context, which the posting treats as central.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Seattle, WA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree or equivalent experience."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience, preferably in trust and safety"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Reporting mechanics transfer; the policy judgement the role needs does not."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Good team, but a specialism that narrows rather than widens the next move."
+    },
+    {
+     "label": "Personal priority · 5.5",
+     "quote": "+2.0 tier-1 metro (Seattle) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 5.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: domain judgement is a stated requirement and is unevidenced; capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:amazon-product-ops-alexa",
+   "title": "Product Operations Analyst, Alexa",
+   "company": "Amazon",
+   "location": "Seattle, Washington, United States",
+   "list_location": "Seattle, WA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 5.5,
+    "match": 6.0,
+    "opportunity": 7.0
+   },
+   "salary": "$98K-$128K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "rejected",
+   "apply_url": "https://jobs.example.com/amazon/amazon-product-ops-alexa",
+   "why_fits": "Launch readiness tracking and defect reporting is coordination work with a reporting core, and the tooling is Excel plus internal dashboards.",
+   "main_risk": "The analytical content is thinner than the rest of the shortlist.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "This position is not eligible for immigration sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Seattle, WA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in program or product operations"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Achievable, but it builds less of the target skill set than the roles above."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Large organization; the specific brief is narrower than its title suggests."
+    },
+    {
+     "label": "Personal priority · 5.5",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 5.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: analytical content below the stated target; capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:uber-data-analyst-freight",
+   "title": "Data Analyst, Freight",
+   "company": "Uber",
+   "location": "Dallas, Texas, United States",
+   "list_location": "Dallas, TX",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Closed upstream",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 4.5,
+    "match": 6.0,
+    "opportunity": 6.0
+   },
+   "salary": "$92K-$120K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/uber/uber-data-analyst-freight",
+   "why_fits": "Load-matching and carrier performance reporting is straightforward operational reporting on a familiar stack.",
+   "main_risk": "Freight economics is unfamiliar and the posting assumes industry knowledge.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Dallas, TX — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Within reach, but the weakest opportunity on the shortlist."
+    },
+    {
+     "label": "Opportunity · 6",
+     "quote": "A smaller business line with less visibility than the rest of this list."
+    },
+    {
+     "label": "Personal priority · 4.5",
+     "quote": "+0.5 tier-2 metro (Dallas) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 4.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: industry knowledge is assumed; capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:figma-sales-ops",
+   "title": "Sales Operations Analyst",
+   "company": "Figma",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Revenue & Pricing",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 5.0,
+    "match": 6.0,
+    "opportunity": 7.0
+   },
+   "salary": "$100K-$130K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "withdrawn",
+   "apply_url": "https://jobs.example.com/figma/figma-sales-ops",
+   "why_fits": "Pipeline hygiene and quota reporting is recurring reporting against a commercial calendar, on a stack that matches.",
+   "main_risk": "No CRM administration and no compensation-plan mechanics on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in sales operations or revenue analytics"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Reporting fits; the commercial machinery around it is unfamiliar."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Good company, but the function is a side door into analytics rather than the front one."
+    },
+    {
+     "label": "Personal priority · 5.0",
+     "quote": "+2.0 tier-1 metro · +0.5 adjacent role family · +0.5 confirmed 500-5,000 headcount · +0.3 tech — reported as 5.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: specialism narrows the next move; capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:nvidia-financial-analyst-gaming",
+   "title": "Financial Analyst, Gaming",
+   "company": "NVIDIA",
+   "location": "Santa Clara, California, United States",
+   "list_location": "Santa Clara, CA",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "backup",
+   "verdict": "Backup",
+   "scores": {
+    "priority": 5.0,
+    "match": 6.0,
+    "opportunity": 8.0
+   },
+   "salary": "$105K-$138K/yr",
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": "https://jobs.example.com/nvidia/nvidia-financial-analyst-gaming",
+   "why_fits": "Channel revenue and sell-through analysis is commercial finance work built on the same close cycle as the RBC rotation.",
+   "main_risk": "No channel or distribution modelling, and the posting expects it on arrival.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Santa Clara, CA — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance, Accounting or Economics."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "3+ years in financial analysis, channel finance preferred"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Mechanically within reach; the specialism is unevidenced and central."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Excellent business, though a narrow entry point into it."
+    },
+    {
+     "label": "Personal priority · 5.0",
+     "quote": "+2.0 tier-1 metro · 0.0 acceptable role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 5.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Ceiling rule: three-plus years with a named specialism; capped at BACKUP."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:openai-ba-applied",
+   "title": "Business Analyst, Applied",
+   "company": "OpenAI",
+   "location": "Remote, United States",
+   "list_location": "Remote",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 7.5,
+    "match": 7.0,
+    "opportunity": 9.0
+   },
+   "salary": "$130K-$175K/yr",
+   "tags": [
+    "new",
+    "review"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "Usage and adoption reporting across enterprise accounts is recurring reporting with an executive audience, on a stack that matches.",
+   "main_risk": "Remote eligibility cannot be established from the posting.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · AMBIGUOUS",
+     "quote": "Remote — candidates must reside in one of our approved states at the time of hire."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics or business analysis experience"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Fit is strong; the open question is eligibility, not capability."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "High-scope role at the strongest brand on the list."
+    },
+    {
+     "label": "Personal priority · 7.5",
+     "quote": "0.0 remote or unknown location · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Geography: remote eligibility is restricted to an unnamed list of states; verdict downgraded to MANUAL_REVIEW rather than guessed."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:netflix-ba-studio-ops",
+   "title": "Business Analyst, Studio Operations",
+   "company": "Netflix",
+   "location": "Los Angeles, California, United States",
+   "list_location": "Los Angeles, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 7.0,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$115K-$150K/yr",
+   "tags": [
+    "review"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "interview",
+   "apply_url": null,
+   "why_fits": "Production spend and schedule reporting is budget-cycle reporting with an operational audience, close to the RBC pack in rhythm.",
+   "main_risk": "The posting does not state whether the role is on the studio payroll or a production-company entity.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Los Angeles, CA — on site."
+    },
+    {
+     "label": "Employment type · AMBIGUOUS",
+     "quote": "This position may be engaged through a production services entity depending on the slate."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics or production finance experience"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Fit is good; the employing entity is the open question."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Well-regarded team and an unusual domain to learn early."
+    },
+    {
+     "label": "Personal priority · 7.0",
+     "quote": "+0.5 tier-2 metro (Los Angeles) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 7.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Employment: the posting does not commit to a permanent employing entity; verdict downgraded to MANUAL_REVIEW."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:notion-product-analyst",
+   "title": "Product Analyst, Growth",
+   "company": "Notion",
+   "location": "Remote, United States",
+   "list_location": "Remote",
+   "role_family": "Product Analytics",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 6.5,
+    "match": 7.0,
+    "opportunity": 8.0
+   },
+   "salary": "$120K-$155K/yr",
+   "tags": [
+    "review"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "applied",
+   "apply_url": null,
+   "why_fits": "Activation and retention reporting on a self-serve product matches the subscription reporting already on the record.",
+   "main_risk": "The posting is remote but does not say whether it is US-wide.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Location · AMBIGUOUS",
+     "quote": "Remote — we are a distributed team."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in product or growth analytics"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Good fit; geography is the open question."
+    },
+    {
+     "label": "Opportunity · 8",
+     "quote": "Strong product, small analytics team, wide remit."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "0.0 remote or unknown location · +1.5 core role family · +0.5 confirmed 500-5,000 headcount · +0.3 tech — reported as 6.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Geography: remote scope is not stated as US-based; verdict downgraded to MANUAL_REVIEW rather than assumed."
+    }
+   ],
+   "flags": [
+    "Work authorization: UNSTATED",
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:intermediary-bi-analyst",
+   "title": "Business Intelligence Analyst",
+   "company": "Robert Half (client not named)",
+   "location": "New York, New York, United States",
+   "list_location": "New York, NY",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 6.5,
+    "match": 7.0,
+    "opportunity": 6.0
+   },
+   "salary": "$95K-$120K/yr",
+   "tags": [
+    "review"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "The described work — dashboard build-out and monthly reporting — matches the record closely, on the usual stack.",
+   "main_risk": "The employer is not named, so there is no way to know who receives the application.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "New York, NY — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time, direct hire."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in a business or technical field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2-4 years of business intelligence experience"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "The work described fits; the employer behind it cannot be established."
+    },
+    {
+     "label": "Opportunity · 6",
+     "quote": "Unknowable — opportunity quality cannot be assessed without an employer."
+    },
+    {
+     "label": "Personal priority · 6.5",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · 0.0 unknown headcount — reported as 6.5"
+    },
+    {
+     "label": "Guard",
+     "quote": "Employer identity: posted through a staffing firm with the employer undisclosed; verdict downgraded to MANUAL_REVIEW."
+    },
+    {
+     "label": "Red flag",
+     "quote": "The posting describes 'our client, a leading financial services firm' and never names the employer."
+    }
+   ],
+   "flags": [
+    "Employer identity: INTERMEDIARY"
+   ]
+  },
+  {
+   "id": "demo:adobe-data-analyst-doc-cloud",
+   "title": "Data Analyst, Document Cloud",
+   "company": "Adobe",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 6.0,
+    "match": 6.0,
+    "opportunity": 7.0
+   },
+   "salary": "$100K-$130K/yr",
+   "tags": [
+    "new",
+    "review"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "Product usage reporting on a mature product line, on a stack that matches.",
+   "main_risk": "The posting describes an initial twelve-month engagement without committing to what follows it.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA — hybrid."
+    },
+    {
+     "label": "Employment type · AMBIGUOUS",
+     "quote": "Initial twelve-month engagement with potential for conversion."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience"
+    },
+    {
+     "label": "Match · 6",
+     "quote": "Fit is adequate; the engagement structure is the open question."
+    },
+    {
+     "label": "Opportunity · 7",
+     "quote": "Solid team on an established product."
+    },
+    {
+     "label": "Personal priority · 6.0",
+     "quote": "+2.0 tier-1 metro · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 6.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Employment: 'initial twelve-month engagement' does not confirm permanent full-time employment; verdict downgraded to MANUAL_REVIEW."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:stripe-rotational-analyst",
+   "title": "Strategy & Operations Analyst, Rotational Program",
+   "company": "Stripe",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Strategy & Planning",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "needs_review",
+   "verdict": "Review",
+   "scores": {
+    "priority": 7.0,
+    "match": 7.0,
+    "opportunity": 9.0
+   },
+   "salary": "$120K-$155K/yr",
+   "tags": [
+    "review"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "A two-year rotational analyst program across finance, operations and product is close to an ideal entry point for the stated direction.",
+   "main_risk": "Program eligibility is written around a graduation window that may not include a May 2027 finish.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US without sponsorship."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time, two-year rotational program."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's or master's degree in any discipline."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "Graduating within 12 months of the program start date"
+    },
+    {
+     "label": "Match · 7",
+     "quote": "Program is well matched; the eligibility window needs a human check."
+    },
+    {
+     "label": "Opportunity · 9",
+     "quote": "Structured rotation, strong mentorship and an unusually wide first two years."
+    },
+    {
+     "label": "Personal priority · 7.0",
+     "quote": "+2.0 tier-1 metro · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +0.3 tech — reported as 7.0"
+    },
+    {
+     "label": "Guard",
+     "quote": "Eligibility: the graduation window is stated but its treatment of a master's finish date is not; verdict downgraded to MANUAL_REVIEW."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:salesforce-marketing-analyst",
+   "title": "Marketing Analyst, Demand Generation",
+   "company": "Salesforce",
+   "location": "Indianapolis, Indiana, United States",
+   "list_location": "Indianapolis, IN",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Passed",
+   "scores": {
+    "priority": 3.5,
+    "match": 4.0,
+    "opportunity": 6.0
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "Campaign reporting is reporting, and the tooling overlaps in part.",
+   "main_risk": "The role is campaign execution with reporting attached, not analysis; the required marketing-automation stack is absent from the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Indianapolis, IN — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Marketing, Business or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in marketing analytics; Marketo or Pardot required"
+    },
+    {
+     "label": "Match · 4",
+     "quote": "Only the reporting fragment of the brief is evidenced; the rest is marketing execution."
+    },
+    {
+     "label": "Opportunity · 6",
+     "quote": "Reasonable employer, but the role builds the wrong skill set for the stated direction."
+    },
+    {
+     "label": "Personal priority · 3.5",
+     "quote": "0.0 unknown location (Indianapolis is unlisted and therefore neutral) · +1.5 core role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — offset by a weak fit; reported as 3.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:adobe-ba-toronto",
+   "title": "Business Analyst, Digital Media",
+   "company": "Adobe",
+   "location": "Toronto, Ontario, Canada",
+   "list_location": "Toronto",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Geography: the posting places this role in Canada and requires Canadian work rights. The upstream feed had tagged it US. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Location · Outside target",
+     "quote": "This role is based in our Toronto, Ontario office and requires the right to work in Canada."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of business analysis experience"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Geography: the posting places this role in Canada and requires Canadian work rights. The upstream feed had tagged it US. Gate fired before scoring."
+    },
+    {
+     "label": "Red flag",
+     "quote": "Upstream metadata said United States; the job description did not. The full JD is the truth source."
+    }
+   ],
+   "flags": [
+    "Work authorization: UNSTATED",
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:airbnb-contract-data-analyst",
+   "title": "Data Analyst, Payments (6-month contract)",
+   "company": "Airbnb",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [
+    "new"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Employment: a six-month contract is not permanent full-time employment. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA."
+    },
+    {
+     "label": "Employment type · CONTRACT",
+     "quote": "This is a six-month contract engagement with no guarantee of extension."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Employment: a six-month contract is not permanent full-time employment. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:aws-govcloud-ba",
+   "title": "Business Analyst, GovCloud",
+   "company": "Amazon Web Services",
+   "location": "Arlington, Virginia, United States",
+   "list_location": "Arlington, VA",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [
+    "new",
+    "US citizen only"
+   ],
+   "is_new": true,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Work authorization: US citizenship is stated as a requirement of the role. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Citizenship required",
+     "quote": "This position requires that the candidate be a US Citizen; AWS GovCloud personnel must be US Citizens."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Arlington, VA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years of analytics experience"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Work authorization: US citizenship is stated as a requirement of the role. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:anduril-bizops",
+   "title": "Business Operations Analyst",
+   "company": "Anduril Industries",
+   "location": "Costa Mesa, California, United States",
+   "list_location": "Costa Mesa, CA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [
+    "US person only"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Work authorization: US Person status is required for export-control reasons. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · US person required",
+     "quote": "This role requires access to export-controlled information; applicants must be a US Person as defined by ITAR."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Costa Mesa, CA — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in business operations"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Work authorization: US Person status is required for export-control reasons. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:staffing-data-analyst",
+   "title": "Data Analyst",
+   "company": "Kforce Technology Staffing",
+   "location": "Charlotte, North Carolina, United States",
+   "list_location": "Charlotte, NC",
+   "role_family": "Analytics & Reporting",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [
+    "no sponsorship"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Work authorization: the posting states outright that no current or future sponsorship is available. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · No sponsorship",
+     "quote": "We are unable to sponsor or transfer visas for this position, now or in the future."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Charlotte, NC — hybrid."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time, direct hire."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree preferred."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "3+ years of SQL and reporting experience"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Work authorization: the posting states outright that no current or future sponsorship is available. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: INTERMEDIARY"
+   ]
+  },
+  {
+   "id": "demo:linear-bizops",
+   "title": "Business Operations Analyst",
+   "company": "Linear",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Business Operations",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Personalization: verified headcount of 130 is below the 500-person floor, which is the one preference in this system allowed to reject a job outright. Recorded in config/company_size_verified.yml.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the US."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "No field requirement stated."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in business operations at a startup"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Personalization: verified headcount of 130 is below the 500-person floor, which is the one preference in this system allowed to reject a job outright. Recorded in config/company_size_verified.yml."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:nvidia-program-analyst-facilities",
+   "title": "Program Analyst, Facilities & Real Estate",
+   "company": "NVIDIA",
+   "location": "Santa Clara, California, United States",
+   "list_location": "Santa Clara, CA",
+   "role_family": "Program Delivery",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Passed",
+   "scores": {
+    "priority": 3.5,
+    "match": 4.0,
+    "opportunity": 6.0
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "Budget tracking against a capital plan is spreadsheet work of a familiar kind.",
+   "main_risk": "The analytical content is thin and the domain leads nowhere near business analytics.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Santa Clara, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in facilities, real estate or program coordination"
+    },
+    {
+     "label": "Match · 4",
+     "quote": "Achievable but almost none of it is the target work."
+    },
+    {
+     "label": "Opportunity · 6",
+     "quote": "Good company, weak role for this trajectory."
+    },
+    {
+     "label": "Personal priority · 3.5",
+     "quote": "+2.0 tier-1 metro · +0.5 adjacent role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — offset by a weak fit; reported as 3.5"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:palantir-usg-strategy",
+   "title": "Strategy & Operations Analyst, US Government",
+   "company": "Palantir Technologies",
+   "location": "Washington, District of Columbia, United States",
+   "list_location": "Washington, DC",
+   "role_family": "Strategy & Planning",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [
+    "clearance"
+   ],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Work authorization: an active TS/SCI clearance is required at application, which cannot be obtained by a candidate without one. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Clearance required",
+     "quote": "An active TS/SCI security clearance is required at the time of application."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Washington, DC — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "2+ years in an analytical role; active clearance required"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Work authorization: an active TS/SCI clearance is required at application, which cannot be obtained by a candidate without one. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:netflix-senior-ba-finance",
+   "title": "Senior Business Analyst, Finance Systems",
+   "company": "Netflix",
+   "location": "Los Gatos, California, United States",
+   "list_location": "Los Gatos, CA",
+   "role_family": "Finance / FP&A",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Experience threshold: seven-plus years is stated as required rather than preferred. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Los Gatos, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Finance or Accounting."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "7+ years of finance systems and analysis experience required"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Experience threshold: seven-plus years is stated as required rather than preferred. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:apple-business-systems-analyst",
+   "title": "Business Systems Analyst, SAP Finance",
+   "company": "Apple",
+   "location": "Austin, Texas, United States",
+   "list_location": "Austin, TX",
+   "role_family": "Systems Implementation",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Passed",
+   "scores": {
+    "priority": 3.0,
+    "match": 5.0,
+    "opportunity": 6.0
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": "Finance process knowledge from the RBC rotation is genuinely relevant to the requirements-gathering half of the role.",
+   "main_risk": "SAP configuration and functional-specification writing are the substance of the job and neither is on the record.",
+   "why_passed": null,
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Apple does not sponsor employment visas for this position."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Austin, TX — on site."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Information Systems, Business or a related field."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "3+ years of SAP FI/CO configuration experience"
+    },
+    {
+     "label": "Match · 5",
+     "quote": "Partial overlap on process knowledge only; the systems half is unmet."
+    },
+    {
+     "label": "Opportunity · 6",
+     "quote": "Stable and well-paid, but a different career from the one being aimed at."
+    },
+    {
+     "label": "Personal priority · 3.0",
+     "quote": "+0.5 tier-2 metro (Austin) · -2.0 off-target role family · +2.0 confirmed 5,000+ headcount · +1.5 large established brand — reported as 3.0"
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:google-quant-analyst-ads",
+   "title": "Quantitative Analyst, Ads Auctions",
+   "company": "Google",
+   "location": "Mountain View, California, United States",
+   "list_location": "Mountain View, CA",
+   "role_family": "Data Engineering (adjacent)",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Degree field: a PhD in a quantitative discipline is required, and no listed field is held. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be legally authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Mountain View, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · Field mismatch",
+     "quote": "PhD in Economics, Statistics, Mathematics or Operations Research required."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "PhD in a quantitative discipline, or MS with 4+ years of auction research"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Degree field: a PhD in a quantitative discipline is required, and no listed field is held. Gate fired before scoring."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:meta-data-engineer-growth",
+   "title": "Data Engineer, Growth Infrastructure",
+   "company": "Meta",
+   "location": "Menlo Park, California, United States",
+   "list_location": "Menlo Park, CA",
+   "role_family": "Data Engineering (adjacent)",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Specialism: production data engineering is software work rather than business analysis. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must have current US work authorization."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "Menlo Park, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "Bachelor's degree in Computer Science or equivalent practical experience."
+    },
+    {
+     "label": "Specialism · Specialist engineering",
+     "quote": "Own the airflow pipelines and the streaming ingestion layer behind growth reporting."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "3+ years building production data pipelines in Python or Scala"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Specialism: production data engineering is software work rather than business analysis. Gate fired before scoring."
+    },
+    {
+     "label": "Red flag",
+     "quote": "Surfaced by category rather than title — discovery never filters on the job title, so an engineering role in the analytics category reaches Stage 3 and is rejected here on its responsibilities."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  },
+  {
+   "id": "demo:uber-ds-marketplace",
+   "title": "Data Scientist, Marketplace Algorithms",
+   "company": "Uber",
+   "location": "San Francisco, California, United States",
+   "list_location": "San Francisco, CA",
+   "role_family": "Data Engineering (adjacent)",
+   "last_seen": "Last seen Sep 1 · not rechecked",
+   "group": "passed",
+   "verdict": "Blocked",
+   "scores": {
+    "priority": null,
+    "match": null,
+    "opportunity": null
+   },
+   "salary": null,
+   "tags": [],
+   "is_new": false,
+   "starred": false,
+   "status": "not_applied",
+   "apply_url": null,
+   "why_fits": null,
+   "main_risk": null,
+   "why_passed": "Specialism: building the optimiser is quantitative modelling work, not business analysis. Gate fired before scoring.",
+   "evidence": [
+    {
+     "label": "Work authorization · Ordinary work authorization",
+     "quote": "Must be authorized to work in the United States."
+    },
+    {
+     "label": "Location · US confirmed",
+     "quote": "San Francisco, CA."
+    },
+    {
+     "label": "Employment type · Permanent full time",
+     "quote": "Full-time."
+    },
+    {
+     "label": "Degree requirement · No field required",
+     "quote": "MS or PhD in Statistics, Operations Research, Computer Science or a related quantitative field."
+    },
+    {
+     "label": "Specialism · Specialist quantitative",
+     "quote": "You will design and ship the pricing optimiser that sets fares in real time."
+    },
+    {
+     "label": "Experience asked for",
+     "quote": "MS or PhD with 3+ years building production pricing models"
+    },
+    {
+     "label": "Match",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Opportunity",
+     "quote": "Not scored — a hard gate fired before the fit assessment."
+    },
+    {
+     "label": "Guard",
+     "quote": "Specialism: building the optimiser is quantitative modelling work, not business analysis. Gate fired before scoring."
+    },
+    {
+     "label": "Guard",
+     "quote": "Degree field: an MS or PhD in a quantitative field is required rather than preferred."
+    }
+   ],
+   "flags": [
+    "Employer identity: VERIFIED"
+   ]
+  }
+ ]
+}
