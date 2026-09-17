@@ -18,7 +18,7 @@ export const Route = createFileRoute("/add-job")({
       },
     ],
   }),
-  component: AddJob;
+  component: AddJob,
 });
 
 const fieldClass =
