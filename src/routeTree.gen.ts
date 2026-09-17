@@ -10,33 +10,63 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AddJobRouteImport } from './routes/add-job'
+import { Route as ProfileRouteImport } from './routes/profile'
+import { Route as TrackerRouteImport } from './routes/tracker'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AddJobRoute = AddJobRouteImport.update({
+  id: '/add-job',
+  path: '/add-job',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProfileRoute = ProfileRouteImport.update({
+  id: '/profile',
+  path: '/profile',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TrackerRoute = TrackerRouteImport.update({
+  id: '/tracker',
+  path: '/tracker',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/add-job': typeof AddJobRoute
+  '/profile': typeof ProfileRoute
+  '/tracker': typeof TrackerRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/add-job': typeof AddJobRoute
+  '/profile': typeof ProfileRoute
+  '/tracker': typeof TrackerRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/add-job': typeof AddJobRoute
+  '/profile': typeof ProfileRoute
+  '/tracker': typeof TrackerRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/add-job' | '/profile' | '/tracker'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/add-job' | '/profile' | '/tracker'
+  id: '__root__' | '/' | '/add-job' | '/profile' | '/tracker'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AddJobRoute: typeof AddJobRoute
+  ProfileRoute: typeof ProfileRoute
+  TrackerRoute: typeof TrackerRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +78,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/add-job': {
+      id: '/add-job'
+      path: '/add-job'
+      fullPath: '/add-job'
+      preLoaderRoute: typeof AddJobRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/profile': {
+      id: '/profile'
+      path: '/profile'
+      fullPath: '/profile'
+      preLoaderRoute: typeof ProfileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tracker': {
+      id: '/tracker'
+      path: '/tracker'
+      fullPath: '/tracker'
+      preLoaderRoute: typeof TrackerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AddJobRoute: AddJobRoute,
+  ProfileRoute: ProfileRoute,
+  TrackerRoute: TrackerRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
