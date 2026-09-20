@@ -57,9 +57,7 @@ export function JobDetail({ job, onStatusChange, onClose }: {
             <div key={key} className="border-r border-border p-4 last:border-r-0">
               <p className="font-mono text-[9px] uppercase tracking-[0.12em] text-muted">{key}</p>
               <p className="mt-1 text-2xl font-bold tabular-nums">{score === null ? "Not scored" : formatScore(score)}</p>
-              <div className="mt-2 h-1 overflow-hidden rounded-full bg-foreground/8">
-                <div className={`h-full rounded-full ${scoreColor[key]}`} style={{ width: `${score === null ? 0 : score * 10}%` }} />
-              </div>
+              <progress aria-label={`${key} score`} className={`score-progress mt-2 ${scoreColor[key]}`} max="10" value={score ?? 0} />
             </div>
           );
         })}

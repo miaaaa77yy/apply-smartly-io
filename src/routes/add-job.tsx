@@ -17,6 +17,8 @@ export const Route = createFileRoute("/add-job")({
         property: "og:description",
         content: "Drop in a company, title, location, and description to queue a posting up.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: AddJob,

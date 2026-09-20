@@ -16,6 +16,8 @@ export const Route = createFileRoute("/profile")({
         property: "og:description",
         content: "Set the resume and targets ApplyWise scores every job posting against.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Profile,

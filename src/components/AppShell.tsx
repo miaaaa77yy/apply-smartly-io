@@ -11,12 +11,6 @@ const NAV = [
 export function AppShell({ children, wide = false }: { children: ReactNode; wide?: boolean }) {
   return (
     <div className="relative min-h-screen overflow-hidden bg-background font-display text-foreground">
-      <div className="pointer-events-none fixed inset-0 -z-10">
-        <div className="absolute -top-24 -left-24 h-[480px] w-[480px] rounded-full bg-glow-1 blur-[120px]" />
-        <div className="absolute top-1/3 -right-32 h-[520px] w-[520px] rounded-full bg-glow-2 blur-[130px]" />
-        <div className="absolute -bottom-32 left-1/4 h-[420px] w-[420px] rounded-full bg-glow-3 blur-[120px]" />
-      </div>
-
       <header className="sticky top-0 z-30 border-b border-border/60 bg-surface/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3.5">
           <div className="flex items-center gap-2.5">
